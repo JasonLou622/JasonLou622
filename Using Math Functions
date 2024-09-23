@@ -1,0 +1,32 @@
+/* 
+  Hi there, I am going to update my first code here! 
+*/
+
+// Using Math Functions, pow(), sprt(), fabs()
+
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    double x;
+    double y;
+    double z;
+    double answer;
+
+    cin >> x;
+    cin >> y;
+    // Example of power function, pow()
+    z = pow((x + y), 2);
+
+    // Example of square root funtion, sqrt()
+    // fabs() function that computes absolute value of a floating-point number.
+    answer = fabs(x + sqrt(y));
+
+    cout << fixed << setprecision(2) << "z = " << z << endl;
+    cout << setprecision(4) << "answer = " << answer << endl;
+
+    return 0;
+}
+
